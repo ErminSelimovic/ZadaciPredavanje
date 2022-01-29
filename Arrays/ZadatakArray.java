@@ -8,6 +8,7 @@ public class Main {
 
         int[] intArray = new int[]{4,6,7,13,56,21,23,44,19,88};
         int sum = intArray[0]+intArray[1]+intArray[2]+intArray[3]+intArray[4]+intArray[5]+intArray[6]+intArray[7]+intArray[8]+intArray[9];
+        System.out.println("Jednodimenzionalni niz: " +Arrays.toString(intArray)+ "\n");
         System.out.println("Zbir svih brojava u nizu je Suma = " +sum+ "\n");
 
         int[][] _ddArray = new int[][]{{45,65,48},{884,28,73}};
