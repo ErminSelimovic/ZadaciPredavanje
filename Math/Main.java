@@ -16,13 +16,11 @@ public class Main {
         int intNum2 = 9383;
         int intNum3 = 43;
 
-        int maxNum1 = Math.max(intNum1,intNum2);
-        int maxNum = Math.max(maxNum1,intNum3);
+        int maxNum = Math.max(Math.max(intNum1,intNum2),intNum3);
         System.out.println("Veći broj između brojeva "+intNum1+","+intNum2+" i "+intNum3+
                 " je: " +maxNum);
 
-        int minNum1 = Math.min(intNum1, intNum2);
-        int minNum = Math.min(minNum1,intNum3);
+        int minNum = Math.min(Math.min(intNum1, intNum2),intNum3);
         System.out.println("Najmanji broj između brojeva "+intNum1+","+intNum2+" i "+intNum3+
                 " je: " +minNum);
     }
